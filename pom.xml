@@ -34,7 +34,7 @@
 				<version>${android-maven-plugin-version}</version>
 				<configuration>
 					<sdk>
-						
+						<platform>${android-platform}</platform>
 						<path>${android-sdk-path}</path>
 					</sdk>
 					<emulator>
